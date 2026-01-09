@@ -43,7 +43,7 @@ nav a {
 .hero {
     position: relative;
     height: 80vh;
-    background: url("hero-bg.jpg") center/cover no-repeat;
+    background: url("hero-bg.png") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@ nav a {
 .overlay {
     position: absolute;
     inset: 0;
-    background: rgba(2, 23, 43, 0.75);
+    background:url(assets/hero-bg.png); 
 }
 
 .hero-content {
